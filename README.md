@@ -1,0 +1,2 @@
+# Shutterbugg
+Shutterbugg - Codecademy project
