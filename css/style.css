@@ -1,0 +1,106 @@
+.container {
+  max-width: 928px;
+}
+
+h1, h2, p, a {
+  font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size:18px;
+  font-weight: 200;
+}
+
+.main {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/intro.jpg) no-repeat center center;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 550px;
+  padding-top: 55px;
+}
+
+.main h1{
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+
+.main .subheading{
+	position: absolute;
+  margin: 270px 0 0 0;
+}
+.main h3 {
+  display: inline;
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: 200;  
+  margin-top: 270px;
+}
+
+.main .container .dl-btn{  
+  text-decoration: none;
+  color: rgba(256,256,256,1);
+  padding: 5px 5px;
+  background-color: rgba(238,68,95,0.9);
+  border: 0.5 solid rgba(238,68,95,0.9);
+  border-radius: 4px;
+  margin-left: 400px;
+}
+
+.section .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.store {
+  text-align: center;
+  border-bottom: 0px;
+  padding-bottom:100px
+}
+
+.footer {
+  border-top: 1px solid #dbdbdb;
+  background-color: #f3f3f3;
+  padding: 20px 0px 80px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer li {
+  color: #999;
+  font-weight: 600;
+}
+
+.footer h4{
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}
+
+
+@media (max-width: 500px) {
+  .col-md-6 img {
+    padding: 50px;
+    width: 100%;
+  }
+  .main .container .dl-btn{  
+  text-decoration: none;
+  color: rgba(256,256,256,1);
+  padding: 5px 5px;
+  background-color: rgba(238,68,95,0.9);
+  border: 0.5 solid rgba(238,68,95,0.9);
+  border-radius: 4px;
+  margin-left: 30px;
+}
+  
+}
