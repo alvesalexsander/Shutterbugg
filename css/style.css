@@ -60,6 +60,10 @@ a {
   border-bottom: 1px solid #dbdbdb;
 }
 
+.section:nth-child(2){
+  float: right;
+}
+
 .store {
   text-align: center;
   border-bottom: 0px;
