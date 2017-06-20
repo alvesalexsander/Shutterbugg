@@ -60,6 +60,7 @@ a {
   border-bottom: 1px solid #dbdbdb;
 }
 
+/* seletor para alinhar o segundo smartphone a direita */
 body > div:nth-child(3) > div > div > div:nth-child(2){
   float: right;
 }
