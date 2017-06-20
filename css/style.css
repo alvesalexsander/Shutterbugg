@@ -60,7 +60,7 @@ a {
   border-bottom: 1px solid #dbdbdb;
 }
 
-.section:nth-child(2){
+.section:nth-child(2) img{
   float: right;
 }
 
